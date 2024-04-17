@@ -1,0 +1,111 @@
+$font-family-base: 'Outfit';
+
+$headings-font-family: 'Playfair Display';
+$headings-line-height: 1em;
+$body-emphasis-color: purple;
+
+
+/* Color Theme Swatches in Hex */
+
+$tcc-acai:#8F188D ;
+$tcc-socialist : #8F2018;
+$tcc-berry: #d00c56;
+$tcc-blackcurrent: #69188F;
+$tcc-grape: #8F3518;
+$tcc-acai-dark: #4c004b;
+$tcc-teal: #09ab93;
+
+
+//$custom-colors (
+//  --tcc-acai: $tcc-acai;
+//  --tcc-socialist : $tcc-socialist;
+//  --tcc-berry: $tcc-berry;
+//  --tcc-blackcurrent: $tcc-blackcurrent;
+//  --tcc-grape: $tcc-grape;
+//);
+
+h1,
+h2,
+h3,
+h4
+{
+  letter-spacing: -0.0450em;
+}
+$custom-colors: (
+  "acai": $tcc-acai,
+  "socialist" : $tcc-socialist,
+  "berry": $tcc-berry,
+  "blackcurrent": $tcc-blackcurrent,
+  "grape": $tcc-grape,
+  "acai-dark": $tcc-acai-dark,
+  "teal":#09ab93
+);
+
+$box-shadow: 10px 10px 10px rgba( 0,0,0,.05);
+
+$grid-gutter-width: 15px;
+$btn-border-radius: 100px;
+$btn-border-radius-lg: 100px;
+$btn-font-weight: bold;
+$btn-font-size:14px;
+$btn-padding-x: 30px;
+$btn-padding-y: 10px;
+$headings-color: #4c004b;
+
+
+.btn {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+#breadcrumbs {
+  color: $tcc-acai;
+  a {
+    text-decoration: none;
+    color: $tcc-acai;
+  }
+}
+
+$custom-fs: (
+        20: $font-size-base * 1.25,
+        30: $font-size-base * 1.875,
+        40: $font-size-base * 2.5,
+        50: $font-size-base * 3.125,
+
+);
+
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+$navbar-dark-color: white;
+$navbar-dark-hover-color: var(--drh-yellow);
+$navbar-dark-toggler-border-color: none;
+$focus-ring-opacity: 0;
+$focus-ring-width: 0;
+$focus-ring-box-shadow: unset;
+$nav-link-font-weight: 700;
+$nav-link-focus-box-shadow: none;
+$navbar-dark-active-color: var(--drh-orange);
+
+nav.navbar .nav-item{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+button.navbar-toggler:focus{
+  box-shadow: none;
+}
+
+$border-color: var(--tcc-acai);
+$border-radius: 1;
+
+$form-label-font-weight: 700;
+$input-focus-border-color: var(--drh-orange);
+$input-focus-box-shadow: 5px 5px 0px var(--drh-yellow);
+$toast-border-radius: 4px;
+$toast-header-background-color: var(--drh-yellow);
+$toast-header-color: var(--drh-darkgrey);
+

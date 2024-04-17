@@ -1,0 +1,17 @@
+{
+    "name": "ianjonze/tcc-wales",
+    "description": "Theme for TCC Wales",
+    "type": "wordpress-theme",
+    "autoload": {
+        "psr-4": {
+            "IndStan\\": "inc/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ian Jones",
+            "email": "ian@industrialstandards.co.uk"
+        }
+    ],
+    "require": {}
+}

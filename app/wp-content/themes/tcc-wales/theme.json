@@ -1,0 +1,99 @@
+{
+  "version": 2,
+  "settings": {
+    "layout": {
+      "contentSize": "50rem"
+    },
+    "color": {
+      "background": true,
+      "custom": true,
+      "customDuotone": true,
+      "customGradient": true,
+      "defaultDuotone": false,
+      "defaultGradients": false,
+      "defaultPalette": false,
+      "duotone": [],
+      "gradients": [],
+      "link": true,
+      "palette": [
+        {
+          "name": "TCC Acai",
+          "slug": "tcc-acai",
+          "color": "#8F188D"
+        },
+        {
+          "name": "TCC Socialist ",
+          "slug": "tcc-socialist",
+          "color": " #8F2018"
+        },
+        {
+          "name": "TCC Berry",
+          "slug": "tcc-berry",
+          "color": " #8F1845"
+        },
+        {
+          "name": "TCC Blackcurrent",
+          "slug": "tcc-blackcurrent",
+          "color": " #69188F"
+        },
+        {
+          "name": "TCC Grape",
+          "slug": "tcc-grape",
+          "color": " #8F3518"
+        }
+      ],
+      "text": true
+    }
+  },
+  "styles": {
+    "color": {
+      "text": "#343a40",
+      "background": "#ffffff"
+    },
+    "elements": {
+      "button": {
+        "color": {
+          "text": "#ffffff",
+          "background": "#00a5c8",
+          "font-size": ".825rem"
+        }
+      }
+    },
+    "blocks": {
+      "core/code": {
+        "color": {
+          "text": "#ffffff",
+          "background": "#000000"
+        }
+      },
+      "core/columns": {
+        "border": {
+          "width": "1px",
+          "color": "lightgray",
+          "style": "solid",
+          "radius": "5px"
+        }
+      },
+      "core/heading": {
+        "typography": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontStyle": "normal",
+          "fontWeight": "800",
+          "margin-bottom": "1em"
+        }
+      },
+      "core/button": {
+        "typography": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": ".825rem",
+          "fontStyle": "normal",
+          "fontWeight": "700",
+          "letterSpacing": "0",
+          "lineHeight": "1.6",
+          "textDecoration": "none"
+        }
+      }
+    }
+  }
+}
+
